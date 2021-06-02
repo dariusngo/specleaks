@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SpecLeaks/Classes/**/*'
-  
+
   s.frameworks = 'UIKit', 'XCTest'
   s.dependency 'Quick', '3.0.0'
-  s.dependency 'Nimble', '9.0.0-rc.3'
+  s.dependency 'Nimble', '9.2.0'
 end
